@@ -1,0 +1,110 @@
+Monolingual Sakha Text Analysis Report
+==================================================
+Analysis Date: 2025-06-07 17:11:44
+==================================================
+
+Data Loading:
+------------------------------
+Sakha file: /Users/SvetlaMaria/Desktop/WORK/ETH/CSNLP/Project/project/data/processed/monolingual/yakut_clean.txt
+File exists: True
+File size: 25.5 MB
+
+Dataset Information:
+Total lines in file: 45246
+Sample size analyzed: 10000 sentences
+
+Analyzing Dataset:
+------------------------------
+
+Example sentences:
+
+Sentence 1: Аҕа дойду Улуу сэриитин кыргыһыыларыгар барыта 487 өстөөх саллаатын уонна офицерын кыдыйбыт. Икки төгул Аҕа дойду Улуу сэриитин герой званиятыгар тардыллыбыта, ол да буоллар биэрбэтэхтэрэ.
+Word count: 25
+Character count: 188
+
+Sentence 2: Биһиги колледжпытыгар Кэбээйи землячествота тэриллибитэ 40-ча сыл буолла, сыл аайы кэлэр оҕолору аан бастаан саха балаҕаныгар посвещение оҥоробут. Саамай убаастанар биир дойдулаахпыт Кэбээйи улууһун Баҕадьы нэһилиэгиттэн төрүттээх Петрова Ефросинья Дмитриевна. Кэнники сылларга Кэбээйи землячествота элбэхтик куорат, колледж, республиканскай тэрээһиннэргэ сылдьар, кыайар – хотор, үгүс ситиһиилэрдээх. Инньэ гынан биир саамай кэскиллээх уонна үчүгэй үлэлээх землячествонан ааҕыллабыт. Читать далее Дойдум дьоно үбүлүөй ыалдьыттара →
+Word count: 62
+Character count: 532
+
+Sentence 3: Крылова Анна Семеновна — 1966 сыллааҕы дошкольнай отделение выпускницатабын. Мин бастаан үлэбин пионервожатайтан саҕалаабытым уонна бэйэм дружинам социалистическай Үлэ Геройа Васильев Семен Митрофанович, Мирнэйгэ үлэлээбит эксковаторщик, аатын иҥэрбитим. Онтон пионерскай дружина тохтообутун кэннэ, оскуолаҕа иҥэриллибитэ.
+Word count: 35
+Character count: 322
+
+Sentence 4: Григорьева (Борисова) Валентина Васильевна — 1968 сыллаахха 2 спец «б» курсу бүтэрбитим, кураторбыт Михайлов Марк Михайлович этэ, бүтэрбиппит 50 сылбыт буолла, “Золотой выпусктар” буолабыт, быйыл кинигэ таһааттардыбыт онно анаан. Группабытыгар 3 спец курс баар этэ, уопсайа 70-ча буолан бутэрбиппит. 1966 сыллахха кэлэрбитигэр үөрэнэр корпус умайан хаалбыт этэ. Училищаны бүтэрэн баран Муома оройуонугар үлэлии барбытым — 37 сыл педстажтаахпын, 2004 сыллаахха үлэлээн бүппүтүм.
+Word count: 62
+Character count: 477
+
+Sentence 5: “П. Тобуруокап – ырыа ымыылаах бэйиэт” тиэмэҕэ колледж устудьуоннарын, үлэһиттэрин күүһүнэн мюзикл туруоран көрдөрүү.
+Word count: 14
+Character count: 117
+
+Summary Statistics:
+
+Character lengths:
+Mean: 318.9
+Standard deviation: 294.4
+Minimum: 16
+Maximum: 8612
+Median: 232.0
+
+Word lengths:
+Mean: 39.2
+Standard deviation: 35.7
+Minimum: 2
+Maximum: 1024
+Median: 29.0
+
+Generating Visualizations:
+------------------------------
+Creating distribution plots and vocabulary analysis...
+
+Vocabulary Statistics:
+Total words in sample: 391989
+Unique words in sample: 113191
+Vocabulary diversity (unique/total): 0.2888
+
+Most common words:
+  да: 3430
+  диэн: 3329
+  уонна: 3314
+  –: 2224
+  Ол: 1675
+  эрэ: 1614
+  —: 1481
+  биир: 1325
+  Саха: 1293
+  бу: 1259
+  киһи: 1223
+  ол: 1207
+  курдук: 1182
+  Бу: 1104
+  суох: 1057
+  -: 990
+  дьон: 936
+  эмиэ: 894
+  кытта: 887
+  саха: 813
+
+Least common words (occurring once):
+  Number of words occurring once: 80422
+  Percentage of vocabulary occurring once: 71.05%
+
+Word length distribution in vocabulary:
+  Mean word length: 9.43 characters
+  Median word length: 9.0 characters
+  Most common word length: 9 characters
+Creating statistics table...
+
+Output Files Generated:
+------------------------------
+monolingual_analysis_report.txt               0.0 KB
+monolingual_coverage.png                    231.8 KB
+monolingual_length_distributions.png        222.2 KB
+monolingual_sample_data.csv                5853.2 KB
+monolingual_statistics.csv                    0.2 KB
+monolingual_statistics_table.png             77.8 KB
+monolingual_top_words.csv                    15.6 KB
+monolingual_vocabulary_growth.png           139.1 KB
+monolingual_word_length_frequency.png       155.0 KB
+
+Analysis complete. Results saved in: /Users/SvetlaMaria/Desktop/WORK/ETH/CSNLP/Project/project/src/preprocessing/analysis

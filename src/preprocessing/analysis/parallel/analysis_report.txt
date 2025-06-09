@@ -1,0 +1,77 @@
+Parallel Text Analysis Report
+==================================================
+Analysis Date: 2025-06-07 16:52:36
+==================================================
+
+
+
+Dataset Sizes:
+Tatoeba  : 991 sentence pairs
+Wikimedia: 7905 sentence pairs
+
+Analyzing Datasets:
+------------------------------
+
+Example tokenizations for tatoeba dataset:
+
+Sakha (basic split)   : Олохпор биирдэ үчүгэйи оҥоробун... Туһата суох.
+Tokens: ['Олохпор', 'биирдэ', 'үчүгэйи', 'оҥоробун...', 'Туһата', 'суох.']
+Russian (razdel)      : Один раз в жизни я делаю хорошее дело... И оно бесполезно.
+Tokens: [Substring(0, 4, 'Один'), Substring(5, 8, 'раз'), Substring(9, 10, 'в'), Substring(11, 16, 'жизни'), Substring(17, 18, 'я'), Substring(19, 24, 'делаю'), Substring(25, 32, 'хорошее'), Substring(33, 37, 'дело'), Substring(37, 40, '...'), Substring(41, 42, 'И'), Substring(43, 46, 'оно'), Substring(47, 57, 'бесполезно'), Substring(57, 58, '.')]
+
+Sakha (basic split)   : Чэ, тугу эрэ гыныахха!
+Tokens: ['Чэ,', 'тугу', 'эрэ', 'гыныахха!']
+Russian (razdel)      : Давайте что-нибудь попробуем!
+Tokens: [Substring(0, 7, 'Давайте'), Substring(8, 18, 'что-нибудь'), Substring(19, 28, 'попробуем'), Substring(28, 29, '!')]
+
+Sakha (basic split)   : Утуйарым уолдьаста.
+Tokens: ['Утуйарым', 'уолдьаста.']
+Russian (razdel)      : Мне пора идти спать.
+Tokens: [Substring(0, 3, 'Мне'), Substring(4, 8, 'пора'), Substring(9, 13, 'идти'), Substring(14, 19, 'спать'), Substring(19, 20, '.')]
+
+Summary Statistics for tatoeba dataset:
+
+Character lengths:
+Sakha  : mean=28.6, std=11.0
+Russian: mean=30.5, std=12.1
+
+Word lengths:
+Sakha  : mean=3.9, std=1.6
+Russian: mean=6.4, std=2.4
+
+Length ratios (Russian/Sakha):
+Character ratio: mean=1.10, std=0.29
+Word ratio    : mean=1.75, std=0.53
+
+Example tokenizations for wikimedia dataset:
+
+Sakha (basic split)   : Сычуань — 19 февраля 1997, Пекин) — кытай бэлиитигэ уонна реформатора, Кытай Хомуньуус Баартыйатын диэйэтэлэ.
+Tokens: ['Сычуань', '—', '19', 'февраля', '1997,', 'Пекин)', '—', 'кытай', 'бэлиитигэ', 'уонна', 'реформатора,', 'Кытай', 'Хомуньуус', 'Баартыйатын', 'диэйэтэлэ.']
+Russian (razdel)      : Сычуань — 19 февраля 1997, Пекин) — китайский политик и реформатор, деятель Коммунистической партии Китая.
+Tokens: [Substring(0, 7, 'Сычуань'), Substring(8, 9, '—'), Substring(10, 12, '19'), Substring(13, 20, 'февраля'), Substring(21, 25, '1997'), Substring(25, 26, ','), Substring(27, 32, 'Пекин'), Substring(32, 33, ')'), Substring(34, 35, '—'), Substring(36, 45, 'китайский'), Substring(46, 53, 'политик'), Substring(54, 55, 'и'), Substring(56, 66, 'реформатор'), Substring(66, 67, ','), Substring(68, 75, 'деятель'), Substring(76, 92, 'Коммунистической'), Substring(93, 99, 'партии'), Substring(100, 105, 'Китая'), Substring(105, 106, '.')]
+
+Sakha (basic split)   : Дэн хаһан даҕаны дойдуну салайар дуоһунаска олорботоҕо, ол эрээри 1970 сылтан 1990 сылга дылы Кытай дьиҥнээх салайааччыта этэ.
+Tokens: ['Дэн', 'хаһан', 'даҕаны', 'дойдуну', 'салайар', 'дуоһунаска', 'олорботоҕо,', 'ол', 'эрээри', '1970', 'сылтан', '1990', 'сылга', 'дылы', 'Кытай', 'дьиҥнээх', 'салайааччыта', 'этэ.']
+Russian (razdel)      : Дэн никогда не занимал пост руководителя страны, но был фактическим руководителем Китая с конца 1970-х до начала 1990-х гг.
+Tokens: [Substring(0, 3, 'Дэн'), Substring(4, 11, 'никогда'), Substring(12, 14, 'не'), Substring(15, 22, 'занимал'), Substring(23, 27, 'пост'), Substring(28, 40, 'руководителя'), Substring(41, 47, 'страны'), Substring(47, 48, ','), Substring(49, 51, 'но'), Substring(52, 55, 'был'), Substring(56, 67, 'фактическим'), Substring(68, 81, 'руководителем'), Substring(82, 87, 'Китая'), Substring(88, 89, 'с'), Substring(90, 95, 'конца'), Substring(96, 102, '1970-х'), Substring(103, 105, 'до'), Substring(106, 112, 'начала'), Substring(113, 119, '1990-х'), Substring(120, 122, 'гг'), Substring(122, 123, '.')]
+
+Sakha (basic split)   : Дэн Сяопин Францияҕа үөрэнэ сылдьар кэмэ
+Tokens: ['Дэн', 'Сяопин', 'Францияҕа', 'үөрэнэ', 'сылдьар', 'кэмэ']
+Russian (razdel)      : Дэн Сяопин во время учёбы во Франции
+Tokens: [Substring(0, 3, 'Дэн'), Substring(4, 10, 'Сяопин'), Substring(11, 13, 'во'), Substring(14, 19, 'время'), Substring(20, 25, 'учёбы'), Substring(26, 28, 'во'), Substring(29, 36, 'Франции')]
+
+Summary Statistics for wikimedia dataset:
+
+Character lengths:
+Sakha  : mean=96.9, std=99.8
+Russian: mean=104.0, std=107.6
+
+Word lengths:
+Sakha  : mean=12.5, std=14.4
+Russian: mean=19.1, std=21.9
+
+Length ratios (Russian/Sakha):
+Character ratio: mean=1.12, std=0.53
+Word ratio    : mean=1.54, std=0.70
+
+

@@ -1,20 +1,4 @@
-# Data files
-data/raw/
-data/processed/
-data/augmented/
-*.csv
-*.json
-*.jsonl
-*.txt
-*.tsv
-*.conllu
-*.conll
-*.zip
-*.tar.gz
 
-# Allow data README
-!data/README.md
-!data/**/*.md
 
 # Python
 __pycache__/
