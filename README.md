@@ -54,11 +54,4 @@ project/
 
 ### Data Processing
 
-#### `text_cleaner.py`
-Text cleaning utilities for Yakut language:
-
-- TextCleaner class with URL removal, HTML tag removal, Unicode normalization
-- Parallel data cleaning with length ratio filtering
-- Batch file processing
-
 Further instructions for tokenizer development, model training, and evaluation will be added as development progresses. 
