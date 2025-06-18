@@ -1,126 +1,54 @@
 [
   {
     "id": 1,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
+    "context": "Puppies like to play and bark. Many people keep them as pets.",
+    "question": "What animal is kept as a pet?",
     "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
+      "Cat",
+      "Dog",
+      "Cow",
+      "Fish"
     ],
-    "answer": "Wheels"
+    "answer": "Dog"
   },
   {
     "id": 2,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
+    "context": "Big dogs like to play and bark. Many people keep them as pets.",
+    "question": "What animal is kept as a pet?",
     "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
+      "Cat",
+      "Dog",
+      "Cow",
+      "Fish"
     ],
-    "answer": "Book"
+    "answer": "Dog"
   },
   {
     "id": 3,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
+    "context": "Small dogs like to play and bark. Many people keep them as pets.",
+    "question": "What animal is kept as a pet?",
     "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
+      "Cat",
+      "Dog",
+      "Cow",
+      "Fish"
     ],
-    "answer": "Wings"
+    "answer": "Dog"
   },
   {
     "id": 4,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Dogs like to play and bark. Many people keep them as pets.",
+    "question": "What animal is kept as a pet?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Cat",
+      "Dog",
+      "Cow",
+      "Fish"
     ],
-    "answer": "Red"
+    "answer": "Dog"
   },
   {
     "id": 5,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 6,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 7,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 8,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 9,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 10,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 11,
     "context": "Apples are red or green. They grow on trees.",
     "question": "What color can apples be?",
     "options": [
@@ -132,19 +60,43 @@
     "answer": "Red"
   },
   {
-    "id": 12,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
+    "id": 6,
+    "context": "Green apples are red or green. They grow on trees.",
+    "question": "What color can apples be?",
     "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
+      "Blue",
+      "Red",
+      "Purple",
+      "Black"
     ],
-    "answer": "Water"
+    "answer": "Red"
   },
   {
-    "id": 13,
+    "id": 7,
+    "context": "Red apples are red or green. They grow on trees.",
+    "question": "What color can apples be?",
+    "options": [
+      "Blue",
+      "Red",
+      "Purple",
+      "Black"
+    ],
+    "answer": "Red"
+  },
+  {
+    "id": 8,
+    "context": "Juicy apples are red or green. They grow on trees.",
+    "question": "What color can apples be?",
+    "options": [
+      "Blue",
+      "Red",
+      "Purple",
+      "Black"
+    ],
+    "answer": "Red"
+  },
+  {
+    "id": 9,
     "context": "The sky is blue during the day. At night, we see stars.",
     "question": "What color is the sky in the day?",
     "options": [
@@ -156,40 +108,88 @@
     "answer": "Blue"
   },
   {
-    "id": 14,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "id": 10,
+    "context": "The blue sky is blue during the day. At night, we see stars.",
+    "question": "What color is the sky in the day?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Green",
+      "Yellow",
+      "Blue",
+      "Pink"
     ],
-    "answer": "Cow"
+    "answer": "Blue"
+  },
+  {
+    "id": 11,
+    "context": "Clear sky is blue during the day. At night, we see stars.",
+    "question": "What color is the sky in the day?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "Pink"
+    ],
+    "answer": "Blue"
+  },
+  {
+    "id": 12,
+    "context": "Bright sky is blue during the day. At night, we see stars.",
+    "question": "What color is the sky in the day?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "Pink"
+    ],
+    "answer": "Blue"
+  },
+  {
+    "id": 13,
+    "context": "Fish live in water. They swim using their fins.",
+    "question": "Where do fish live?",
+    "options": [
+      "Sky",
+      "Tree",
+      "Water",
+      "Grass"
+    ],
+    "answer": "Water"
+  },
+  {
+    "id": 14,
+    "context": "Little fish live in water. They swim using their fins.",
+    "question": "Where do fish live?",
+    "options": [
+      "Sky",
+      "Tree",
+      "Water",
+      "Grass"
+    ],
+    "answer": "Water"
   },
   {
     "id": 15,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "Colorful fish live in water. They swim using their fins.",
+    "question": "Where do fish live?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Sky",
+      "Tree",
+      "Water",
+      "Grass"
     ],
-    "answer": "Cow"
+    "answer": "Water"
   },
   {
     "id": 16,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "Fresh fish live in water. They swim using their fins.",
+    "question": "Where do fish live?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Sky",
+      "Tree",
+      "Water",
+      "Grass"
     ],
-    "answer": "Cow"
+    "answer": "Water"
   },
   {
     "id": 17,
@@ -205,30 +205,42 @@
   },
   {
     "id": 18,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "Bright sun gives us light and warmth. It rises in the morning.",
+    "question": "What gives us light?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Moon",
+      "Sun",
+      "Stars",
+      "Lamp"
     ],
-    "answer": "Blue"
+    "answer": "Sun"
   },
   {
     "id": 19,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Hot sun gives us light and warmth. It rises in the morning.",
+    "question": "What gives us light?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Moon",
+      "Sun",
+      "Stars",
+      "Lamp"
     ],
-    "answer": "Yellow"
+    "answer": "Sun"
   },
   {
     "id": 20,
+    "context": "Rising sun gives us light and warmth. It rises in the morning.",
+    "question": "What gives us light?",
+    "options": [
+      "Moon",
+      "Sun",
+      "Stars",
+      "Lamp"
+    ],
+    "answer": "Sun"
+  },
+  {
+    "id": 21,
     "context": "Milk comes from cows. It is white and used in many foods.",
     "question": "What animal gives us milk?",
     "options": [
@@ -240,20 +252,8 @@
     "answer": "Cow"
   },
   {
-    "id": 21,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
     "id": 22,
-    "context": "Milk comes from cows. It is white and used in many foods.",
+    "context": "Fresh milk comes from cows. It is white and used in many foods.",
     "question": "What animal gives us milk?",
     "options": [
       "Goat",
@@ -265,6 +265,30 @@
   },
   {
     "id": 23,
+    "context": "Cold milk comes from cows. It is white and used in many foods.",
+    "question": "What animal gives us milk?",
+    "options": [
+      "Goat",
+      "Cow",
+      "Dog",
+      "Pig"
+    ],
+    "answer": "Cow"
+  },
+  {
+    "id": 24,
+    "context": "White milk comes from cows. It is white and used in many foods.",
+    "question": "What animal gives us milk?",
+    "options": [
+      "Goat",
+      "Cow",
+      "Dog",
+      "Pig"
+    ],
+    "answer": "Cow"
+  },
+  {
+    "id": 25,
     "context": "Books have pages. People read them to learn or for fun.",
     "question": "What do people read?",
     "options": [
@@ -276,44 +300,20 @@
     "answer": "Book"
   },
   {
-    "id": 24,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
-    "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
-    ],
-    "answer": "Dog"
-  },
-  {
-    "id": 25,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
-    "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
-    ],
-    "answer": "Red"
-  },
-  {
     "id": 26,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Story books have pages. People read them to learn or for fun.",
+    "question": "What do people read?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Pen",
+      "Book",
+      "Phone",
+      "Box"
     ],
-    "answer": "Yellow"
+    "answer": "Book"
   },
   {
     "id": 27,
-    "context": "Books have pages. People read them to learn or for fun.",
+    "context": "Funny books have pages. People read them to learn or for fun.",
     "question": "What do people read?",
     "options": [
       "Pen",
@@ -325,43 +325,7 @@
   },
   {
     "id": 28,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
-    "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
-    ],
-    "answer": "Cow"
-  },
-  {
-    "id": 29,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 30,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
-    "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
-    ],
-    "answer": "Sun"
-  },
-  {
-    "id": 31,
-    "context": "Books have pages. People read them to learn or for fun.",
+    "context": "Old books have pages. People read them to learn or for fun.",
     "question": "What do people read?",
     "options": [
       "Pen",
@@ -372,56 +336,92 @@
     "answer": "Book"
   },
   {
-    "id": 32,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "id": 29,
+    "context": "Cars have wheels and can go fast. People use them to travel.",
+    "question": "What do cars have?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Wings",
+      "Wheels",
+      "Fins",
+      "Feet"
     ],
-    "answer": "Yellow"
+    "answer": "Wheels"
+  },
+  {
+    "id": 30,
+    "context": "Fast cars have wheels and can go fast. People use them to travel.",
+    "question": "What do cars have?",
+    "options": [
+      "Wings",
+      "Wheels",
+      "Fins",
+      "Feet"
+    ],
+    "answer": "Wheels"
+  },
+  {
+    "id": 31,
+    "context": "Red cars have wheels and can go fast. People use them to travel.",
+    "question": "What do cars have?",
+    "options": [
+      "Wings",
+      "Wheels",
+      "Fins",
+      "Feet"
+    ],
+    "answer": "Wheels"
+  },
+  {
+    "id": 32,
+    "context": "Big cars have wheels and can go fast. People use them to travel.",
+    "question": "What do cars have?",
+    "options": [
+      "Wings",
+      "Wheels",
+      "Fins",
+      "Feet"
+    ],
+    "answer": "Wheels"
   },
   {
     "id": 33,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Birds have wings and can fly in the sky.",
+    "question": "What helps birds fly?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Legs",
+      "Fins",
+      "Wings",
+      "Ears"
     ],
-    "answer": "Red"
+    "answer": "Wings"
   },
   {
     "id": 34,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "Flying birds have wings and can fly in the sky.",
+    "question": "What helps birds fly?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Legs",
+      "Fins",
+      "Wings",
+      "Ears"
     ],
-    "answer": "Blue"
+    "answer": "Wings"
   },
   {
     "id": 35,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Colorful birds have wings and can fly in the sky.",
+    "question": "What helps birds fly?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Legs",
+      "Fins",
+      "Wings",
+      "Ears"
     ],
-    "answer": "Red"
+    "answer": "Wings"
   },
   {
     "id": 36,
-    "context": "Birds have wings and can fly in the sky.",
+    "context": "Small birds have wings and can fly in the sky.",
     "question": "What helps birds fly?",
     "options": [
       "Legs",
@@ -445,31 +445,31 @@
   },
   {
     "id": 38,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
+    "context": "Ripe bananas are yellow and sweet. They grow in hot places.",
+    "question": "What color are bananas?",
     "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
+      "Yellow",
+      "Blue",
+      "Red",
+      "Green"
     ],
-    "answer": "Sun"
+    "answer": "Yellow"
   },
   {
     "id": 39,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
+    "context": "Sweet bananas are yellow and sweet. They grow in hot places.",
+    "question": "What color are bananas?",
     "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
+      "Yellow",
+      "Blue",
+      "Red",
+      "Green"
     ],
-    "answer": "Wheels"
+    "answer": "Yellow"
   },
   {
     "id": 40,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
+    "context": "Yellow bananas are yellow and sweet. They grow in hot places.",
     "question": "What color are bananas?",
     "options": [
       "Yellow",
@@ -478,725 +478,5 @@
       "Green"
     ],
     "answer": "Yellow"
-  },
-  {
-    "id": 41,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
-    "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
-    ],
-    "answer": "Sun"
-  },
-  {
-    "id": 42,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
-    "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
-    ],
-    "answer": "Sun"
-  },
-  {
-    "id": 43,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 44,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 45,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 46,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 47,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
-    "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
-    ],
-    "answer": "Cow"
-  },
-  {
-    "id": 48,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 49,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
-    ],
-    "answer": "Yellow"
-  },
-  {
-    "id": 50,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
-    "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
-    ],
-    "answer": "Cow"
-  },
-  {
-    "id": 51,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 52,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
-    ],
-    "answer": "Yellow"
-  },
-  {
-    "id": 53,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 54,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 55,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
-    "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
-    ],
-    "answer": "Red"
-  },
-  {
-    "id": 56,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 57,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 58,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 59,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 60,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 61,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
-    "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
-    ],
-    "answer": "Dog"
-  },
-  {
-    "id": 62,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 63,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 64,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
-    "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
-    ],
-    "answer": "Sun"
-  },
-  {
-    "id": 65,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
-    "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
-    ],
-    "answer": "Red"
-  },
-  {
-    "id": 66,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
-    "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
-    ],
-    "answer": "Red"
-  },
-  {
-    "id": 67,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 68,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 69,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 70,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
-    "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
-    ],
-    "answer": "Red"
-  },
-  {
-    "id": 71,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
-    "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
-    ],
-    "answer": "Sun"
-  },
-  {
-    "id": 72,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 73,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 74,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 75,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 76,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 77,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 78,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 79,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 80,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 81,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 82,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
-    ],
-    "answer": "Yellow"
-  },
-  {
-    "id": 83,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
-    "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
-    ],
-    "answer": "Cow"
-  },
-  {
-    "id": 84,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 85,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 86,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
-    "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
-    ],
-    "answer": "Dog"
-  },
-  {
-    "id": 87,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
-    "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
-    ],
-    "answer": "Dog"
-  },
-  {
-    "id": 88,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 89,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 90,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
-    "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
-    ],
-    "answer": "Book"
-  },
-  {
-    "id": 91,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
-    "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
-    ],
-    "answer": "Dog"
-  },
-  {
-    "id": 92,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 93,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 94,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
-    "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
-    ],
-    "answer": "Water"
-  },
-  {
-    "id": 95,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 96,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
-    "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
-    ],
-    "answer": "Cow"
-  },
-  {
-    "id": 97,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
-    "id": 98,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
-  },
-  {
-    "id": 99,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
-    "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
-    ],
-    "answer": "Wings"
-  },
-  {
-    "id": 100,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
-    "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
-    ],
-    "answer": "Blue"
   }
 ]
