@@ -1,482 +1,1202 @@
 [
   {
     "id": 1,
-    "context": "Puppies like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
+    "context": "Cats sleep for many hours each day, usually in warm spots.",
+    "question": "Which animal sleeps a lot in warm places?",
     "options": [
-      "Cat",
       "Dog",
-      "Cow",
-      "Fish"
+      "Cat",
+      "Fish",
+      "Bird"
     ],
-    "answer": "Dog"
+    "answer": "Cat"
   },
   {
     "id": 2,
-    "context": "Big dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
+    "context": "Rain falls from the clouds and makes the ground wet.",
+    "question": "What falls from clouds?",
     "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
+      "Snow",
+      "Rain",
+      "Fog",
+      "Wind"
     ],
-    "answer": "Dog"
+    "answer": "Rain"
   },
   {
     "id": 3,
-    "context": "Small dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
+    "context": "Trains travel on tracks and carry passengers across cities.",
+    "question": "What runs on tracks?",
     "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
+      "Car",
+      "Bus",
+      "Train",
+      "Bike"
     ],
-    "answer": "Dog"
+    "answer": "Train"
   },
   {
     "id": 4,
-    "context": "Dogs like to play and bark. Many people keep them as pets.",
-    "question": "What animal is kept as a pet?",
+    "context": "Apples can be red, green, or yellow, and grow on trees.",
+    "question": "Which fruit grows on trees?",
     "options": [
-      "Cat",
-      "Dog",
-      "Cow",
-      "Fish"
+      "Apple",
+      "Banana",
+      "Grape",
+      "Melon"
     ],
-    "answer": "Dog"
+    "answer": "Apple"
   },
   {
     "id": 5,
-    "context": "Apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "The sun gives us light and heat during the daytime.",
+    "question": "What gives light in the daytime?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Sun",
+      "Moon",
+      "Lamp",
+      "Fire"
     ],
-    "answer": "Red"
+    "answer": "Sun"
   },
   {
     "id": 6,
-    "context": "Green apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Birds build nests to lay their eggs and raise chicks.",
+    "question": "Where do birds lay eggs?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Cave",
+      "Nest",
+      "Tree",
+      "Hole"
     ],
-    "answer": "Red"
+    "answer": "Nest"
   },
   {
     "id": 7,
-    "context": "Red apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Milk is white and comes from cows and goats.",
+    "question": "What comes from cows?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Water",
+      "Juice",
+      "Milk",
+      "Oil"
     ],
-    "answer": "Red"
+    "answer": "Milk"
   },
   {
     "id": 8,
-    "context": "Juicy apples are red or green. They grow on trees.",
-    "question": "What color can apples be?",
+    "context": "Bees collect nectar and make honey in hives.",
+    "question": "What do bees make?",
     "options": [
-      "Blue",
-      "Red",
-      "Purple",
-      "Black"
+      "Milk",
+      "Sugar",
+      "Wax",
+      "Honey"
     ],
-    "answer": "Red"
+    "answer": "Honey"
   },
   {
     "id": 9,
-    "context": "The sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "Fish swim in water and breathe through gills.",
+    "question": "What breathes through gills?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Bird",
+      "Frog",
+      "Fish",
+      "Snake"
     ],
-    "answer": "Blue"
+    "answer": "Fish"
   },
   {
     "id": 10,
-    "context": "The blue sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "Leaves fall from trees during autumn when it gets cooler.",
+    "question": "What falls from trees in autumn?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Bark",
+      "Leaves",
+      "Rocks",
+      "Nuts"
     ],
-    "answer": "Blue"
+    "answer": "Leaves"
   },
   {
     "id": 11,
-    "context": "Clear sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "The moon is visible at night and has a round shape.",
+    "question": "What is round and seen at night?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Sun",
+      "Star",
+      "Moon",
+      "Cloud"
     ],
-    "answer": "Blue"
+    "answer": "Moon"
   },
   {
     "id": 12,
-    "context": "Bright sky is blue during the day. At night, we see stars.",
-    "question": "What color is the sky in the day?",
+    "context": "Shoes are worn on feet to protect them while walking.",
+    "question": "What protects your feet?",
     "options": [
-      "Green",
-      "Yellow",
-      "Blue",
-      "Pink"
+      "Gloves",
+      "Shoes",
+      "Socks",
+      "Hats"
     ],
-    "answer": "Blue"
+    "answer": "Shoes"
   },
   {
     "id": 13,
-    "context": "Fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
+    "context": "Ice melts when it gets warm and turns into water.",
+    "question": "What does ice become?",
     "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
+      "Air",
+      "Snow",
+      "Steam",
+      "Water"
     ],
     "answer": "Water"
   },
   {
     "id": 14,
-    "context": "Little fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
+    "context": "Frogs can jump and live both on land and in water.",
+    "question": "Which animal lives in water and on land?",
     "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
+      "Fish",
+      "Frog",
+      "Bird",
+      "Cat"
     ],
-    "answer": "Water"
+    "answer": "Frog"
   },
   {
     "id": 15,
-    "context": "Colorful fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
+    "context": "Butter is made from milk and is used in cooking.",
+    "question": "What is made from milk?",
     "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
+      "Juice",
+      "Butter",
+      "Oil",
+      "Flour"
     ],
-    "answer": "Water"
+    "answer": "Butter"
   },
   {
     "id": 16,
-    "context": "Fresh fish live in water. They swim using their fins.",
-    "question": "Where do fish live?",
+    "context": "Chairs are used for sitting and often have four legs.",
+    "question": "What do we sit on?",
     "options": [
-      "Sky",
-      "Tree",
-      "Water",
-      "Grass"
+      "Table",
+      "Bed",
+      "Chair",
+      "Stool"
     ],
-    "answer": "Water"
+    "answer": "Chair"
   },
   {
     "id": 17,
-    "context": "The sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
+    "context": "Clocks show the time and have hands that move.",
+    "question": "What shows the time?",
     "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
+      "Watch",
+      "Calendar",
+      "Clock",
+      "Phone"
     ],
-    "answer": "Sun"
+    "answer": "Clock"
   },
   {
     "id": 18,
-    "context": "Bright sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
+    "context": "Cars have engines and drive on roads.",
+    "question": "What drives on roads?",
     "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
+      "Plane",
+      "Car",
+      "Boat",
+      "Train"
     ],
-    "answer": "Sun"
+    "answer": "Car"
   },
   {
     "id": 19,
-    "context": "Hot sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
+    "context": "Bananas are long, yellow fruits that grow in bunches.",
+    "question": "Which fruit is yellow and long?",
     "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
+      "Apple",
+      "Banana",
+      "Pear",
+      "Mango"
     ],
-    "answer": "Sun"
+    "answer": "Banana"
   },
   {
     "id": 20,
-    "context": "Rising sun gives us light and warmth. It rises in the morning.",
-    "question": "What gives us light?",
+    "context": "Pencils are used to write and have erasers on top.",
+    "question": "What is used for writing?",
     "options": [
-      "Moon",
-      "Sun",
-      "Stars",
-      "Lamp"
+      "Pen",
+      "Chalk",
+      "Pencil",
+      "Brush"
     ],
-    "answer": "Sun"
+    "answer": "Pencil"
   },
   {
     "id": 21,
-    "context": "Milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "The sky appears blue on clear sunny days.",
+    "question": "What color is the sky?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Blue",
+      "Green",
+      "Red",
+      "White"
     ],
-    "answer": "Cow"
+    "answer": "Blue"
   },
   {
     "id": 22,
-    "context": "Fresh milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "Mountains are tall and often covered with snow.",
+    "question": "What is tall and snowy?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Hill",
+      "Rock",
+      "Mountain",
+      "Tree"
     ],
-    "answer": "Cow"
+    "answer": "Mountain"
   },
   {
     "id": 23,
-    "context": "Cold milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "Cows eat grass and live on farms.",
+    "question": "What animal eats grass?",
     "options": [
-      "Goat",
       "Cow",
       "Dog",
-      "Pig"
+      "Tiger",
+      "Wolf"
     ],
     "answer": "Cow"
   },
   {
     "id": 24,
-    "context": "White milk comes from cows. It is white and used in many foods.",
-    "question": "What animal gives us milk?",
+    "context": "Tables are flat surfaces used for eating or working.",
+    "question": "What has a flat surface?",
     "options": [
-      "Goat",
-      "Cow",
-      "Dog",
-      "Pig"
+      "Chair",
+      "Wall",
+      "Table",
+      "Cup"
     ],
-    "answer": "Cow"
+    "answer": "Table"
   },
   {
     "id": 25,
-    "context": "Books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
+    "context": "Dogs are friendly animals that bark and wag their tails.",
+    "question": "What animal barks?",
     "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
+      "Cat",
+      "Dog",
+      "Goat",
+      "Duck"
     ],
-    "answer": "Book"
+    "answer": "Dog"
   },
   {
     "id": 26,
-    "context": "Story books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
+    "context": "Soap is used for washing hands and killing germs.",
+    "question": "What is used to wash hands?",
     "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
+      "Oil",
+      "Cream",
+      "Soap",
+      "Powder"
     ],
-    "answer": "Book"
+    "answer": "Soap"
   },
   {
     "id": 27,
-    "context": "Funny books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
+    "context": "Stars twinkle in the sky during the night.",
+    "question": "What twinkles at night?",
     "options": [
-      "Pen",
-      "Book",
-      "Phone",
-      "Box"
+      "Moon",
+      "Star",
+      "Plane",
+      "Cloud"
     ],
-    "answer": "Book"
+    "answer": "Star"
   },
   {
     "id": 28,
-    "context": "Old books have pages. People read them to learn or for fun.",
-    "question": "What do people read?",
+    "context": "Lemons are yellow fruits with a sour taste.",
+    "question": "Which fruit is yellow and sour?",
     "options": [
-      "Pen",
+      "Lemon",
+      "Apple",
+      "Orange",
+      "Grape"
+    ],
+    "answer": "Lemon"
+  },
+  {
+    "id": 29,
+    "context": "Books have pages with printed words to read.",
+    "question": "What has pages and words?",
+    "options": [
+      "Box",
       "Book",
-      "Phone",
-      "Box"
+      "Bag",
+      "Map"
     ],
     "answer": "Book"
   },
   {
-    "id": 29,
-    "context": "Cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
-    "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
-    ],
-    "answer": "Wheels"
-  },
-  {
     "id": 30,
-    "context": "Fast cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
+    "context": "Blankets keep us warm when we sleep at night.",
+    "question": "What keeps you warm in bed?",
     "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
+      "Pillow",
+      "Sheet",
+      "Blanket",
+      "Towel"
     ],
-    "answer": "Wheels"
+    "answer": "Blanket"
   },
   {
     "id": 31,
-    "context": "Red cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
+    "context": "The ocean is very large and contains salty water.",
+    "question": "What contains salty water?",
     "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
+      "Lake",
+      "Pond",
+      "River",
+      "Ocean"
     ],
-    "answer": "Wheels"
+    "answer": "Ocean"
   },
   {
     "id": 32,
-    "context": "Big cars have wheels and can go fast. People use them to travel.",
-    "question": "What do cars have?",
+    "context": "A kite flies in the sky when the wind is strong.",
+    "question": "What flies in the wind?",
     "options": [
-      "Wings",
-      "Wheels",
-      "Fins",
-      "Feet"
+      "Plane",
+      "Balloon",
+      "Kite",
+      "Bird"
     ],
-    "answer": "Wheels"
+    "answer": "Kite"
   },
   {
     "id": 33,
-    "context": "Birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
+    "context": "The bell rings at the end of school.",
+    "question": "What rings at school?",
     "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
+      "Alarm",
+      "Bell",
+      "Whistle",
+      "Clock"
     ],
-    "answer": "Wings"
+    "answer": "Bell"
   },
   {
     "id": 34,
-    "context": "Flying birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
+    "context": "Fire is hot and can burn things quickly.",
+    "question": "What is hot and burns?",
     "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
+      "Ice",
+      "Water",
+      "Fire",
+      "Snow"
     ],
-    "answer": "Wings"
+    "answer": "Fire"
   },
   {
     "id": 35,
-    "context": "Colorful birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
+    "context": "Grass is green and grows in parks and gardens.",
+    "question": "What grows in gardens and is green?",
     "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
+      "Rock",
+      "Soil",
+      "Tree",
+      "Grass"
     ],
-    "answer": "Wings"
+    "answer": "Grass"
   },
   {
     "id": 36,
-    "context": "Small birds have wings and can fly in the sky.",
-    "question": "What helps birds fly?",
+    "context": "A mirror shows your reflection when you look at it.",
+    "question": "What shows your reflection?",
     "options": [
-      "Legs",
-      "Fins",
-      "Wings",
-      "Ears"
+      "Glass",
+      "TV",
+      "Mirror",
+      "Wall"
     ],
-    "answer": "Wings"
+    "answer": "Mirror"
   },
   {
     "id": 37,
-    "context": "Bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Bicycles have two wheels and are powered by pedaling.",
+    "question": "What has two wheels?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Car",
+      "Bike",
+      "Bus",
+      "Van"
     ],
-    "answer": "Yellow"
+    "answer": "Bike"
   },
   {
     "id": 38,
-    "context": "Ripe bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Shoelaces keep shoes tight on your feet.",
+    "question": "What ties your shoes?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Strap",
+      "Buckle",
+      "Shoelace",
+      "Glue"
     ],
-    "answer": "Yellow"
+    "answer": "Shoelace"
   },
   {
     "id": 39,
-    "context": "Sweet bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Buses carry many passengers through the city.",
+    "question": "What carries people in the city?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Bike",
+      "Taxi",
+      "Bus",
+      "Van"
     ],
-    "answer": "Yellow"
+    "answer": "Bus"
   },
   {
     "id": 40,
-    "context": "Yellow bananas are yellow and sweet. They grow in hot places.",
-    "question": "What color are bananas?",
+    "context": "Water boils at a high temperature.",
+    "question": "What boils when heated?",
     "options": [
-      "Yellow",
-      "Blue",
-      "Red",
-      "Green"
+      "Oil",
+      "Juice",
+      "Water",
+      "Milk"
     ],
-    "answer": "Yellow"
+    "answer": "Water"
+  },
+  {
+    "id": 41,
+    "context": "Lamps give light in dark rooms.",
+    "question": "What gives light indoors?",
+    "options": [
+      "Fan",
+      "Curtain",
+      "Lamp",
+      "Speaker"
+    ],
+    "answer": "Lamp"
+  },
+  {
+    "id": 42,
+    "context": "Hats are worn on the head to block sunlight.",
+    "question": "What is worn on the head?",
+    "options": [
+      "Shoe",
+      "Hat",
+      "Glove",
+      "Shirt"
+    ],
+    "answer": "Hat"
+  },
+  {
+    "id": 43,
+    "context": "Eggs are laid by chickens and used in recipes.",
+    "question": "What do chickens lay?",
+    "options": [
+      "Eggs",
+      "Stones",
+      "Corn",
+      "Seeds"
+    ],
+    "answer": "Eggs"
+  },
+  {
+    "id": 44,
+    "context": "Snow falls in winter and covers the ground.",
+    "question": "What falls in winter?",
+    "options": [
+      "Rain",
+      "Leaves",
+      "Snow",
+      "Ash"
+    ],
+    "answer": "Snow"
+  },
+  {
+    "id": 45,
+    "context": "Trees have roots that go deep into the soil.",
+    "question": "What has deep roots?",
+    "options": [
+      "House",
+      "Tree",
+      "Tent",
+      "Pole"
+    ],
+    "answer": "Tree"
+  },
+  {
+    "id": 46,
+    "context": "Rocks are hard and found on the ground.",
+    "question": "What is hard and on the ground?",
+    "options": [
+      "Rock",
+      "Leaf",
+      "Rope",
+      "Ball"
+    ],
+    "answer": "Rock"
+  },
+  {
+    "id": 47,
+    "context": "Fans blow air and keep people cool.",
+    "question": "What blows air to cool you?",
+    "options": [
+      "Heater",
+      "Fan",
+      "Oven",
+      "Lamp"
+    ],
+    "answer": "Fan"
+  },
+  {
+    "id": 48,
+    "context": "Cookies are baked and sweet to eat.",
+    "question": "What is a sweet baked treat?",
+    "options": [
+      "Candy",
+      "Cookie",
+      "Toast",
+      "Fruit"
+    ],
+    "answer": "Cookie"
+  },
+  {
+    "id": 49,
+    "context": "The fridge keeps food cold and fresh.",
+    "question": "What keeps food cold?",
+    "options": [
+      "Microwave",
+      "Oven",
+      "Fridge",
+      "Toaster"
+    ],
+    "answer": "Fridge"
+  },
+  {
+    "id": 50,
+    "context": "Knives are sharp tools used for cutting.",
+    "question": "What tool is sharp for cutting?",
+    "options": [
+      "Spoon",
+      "Knife",
+      "Plate",
+      "Bowl"
+    ],
+    "answer": "Knife"
+  },
+  {
+    "id": 51,
+    "context": "The telephone lets people talk over long distances.",
+    "question": "What do people use to talk far away?",
+    "options": [
+      "Bell",
+      "Letter",
+      "Phone",
+      "Radio"
+    ],
+    "answer": "Phone"
+  },
+  {
+    "id": 52,
+    "context": "Spiders spin webs to catch their food.",
+    "question": "What spins a web?",
+    "options": [
+      "Bee",
+      "Ant",
+      "Spider",
+      "Worm"
+    ],
+    "answer": "Spider"
+  },
+  {
+    "id": 53,
+    "context": "Pizza is round and often has cheese and toppings.",
+    "question": "What food is round with cheese?",
+    "options": [
+      "Bread",
+      "Pizza",
+      "Cake",
+      "Taco"
+    ],
+    "answer": "Pizza"
+  },
+  {
+    "id": 54,
+    "context": "Glasses help people see better.",
+    "question": "What helps you see clearly?",
+    "options": [
+      "Glasses",
+      "Shoes",
+      "Hat",
+      "Scarf"
+    ],
+    "answer": "Glasses"
+  },
+  {
+    "id": 55,
+    "context": "Rainbows appear in the sky after rain and sunlight.",
+    "question": "What appears after rain and sun?",
+    "options": [
+      "Storm",
+      "Fog",
+      "Rainbow",
+      "Cloud"
+    ],
+    "answer": "Rainbow"
+  },
+  {
+    "id": 56,
+    "context": "Candles burn and give light when there is no electricity.",
+    "question": "What gives light when burning?",
+    "options": [
+      "Match",
+      "Candle",
+      "Stick",
+      "Torch"
+    ],
+    "answer": "Candle"
+  },
+  {
+    "id": 57,
+    "context": "Clouds are white or gray and float in the sky.",
+    "question": "What floats in the sky?",
+    "options": [
+      "Leaf",
+      "Bird",
+      "Cloud",
+      "Rock"
+    ],
+    "answer": "Cloud"
+  },
+  {
+    "id": 58,
+    "context": "Nails are small metal pieces used to join wood.",
+    "question": "What joins pieces of wood?",
+    "options": [
+      "Wire",
+      "Glue",
+      "Nail",
+      "String"
+    ],
+    "answer": "Nail"
+  },
+  {
+    "id": 59,
+    "context": "Keys are used to lock and unlock doors.",
+    "question": "What is used to open a lock?",
+    "options": [
+      "Card",
+      "Stick",
+      "Key",
+      "Handle"
+    ],
+    "answer": "Key"
+  },
+  {
+    "id": 60,
+    "context": "A toothbrush is used to clean your teeth.",
+    "question": "What is used for brushing teeth?",
+    "options": [
+      "Comb",
+      "Toothbrush",
+      "Towel",
+      "Straw"
+    ],
+    "answer": "Toothbrush"
+  },
+  {
+    "id": 61,
+    "context": "Zebras have black and white stripes.",
+    "question": "Which animal has stripes?",
+    "options": [
+      "Lion",
+      "Zebra",
+      "Tiger",
+      "Bear"
+    ],
+    "answer": "Zebra"
+  },
+  {
+    "id": 62,
+    "context": "Grapes grow in bunches and are sweet to eat.",
+    "question": "What fruit grows in bunches?",
+    "options": [
+      "Grape",
+      "Apple",
+      "Plum",
+      "Pear"
+    ],
+    "answer": "Grape"
+  },
+  {
+    "id": 63,
+    "context": "Trucks are large vehicles that carry heavy loads.",
+    "question": "What carries heavy things?",
+    "options": [
+      "Car",
+      "Truck",
+      "Bike",
+      "Boat"
+    ],
+    "answer": "Truck"
+  },
+  {
+    "id": 64,
+    "context": "Ladders help people reach high places.",
+    "question": "What is used to climb up?",
+    "options": [
+      "Stairs",
+      "Ladder",
+      "Bench",
+      "Wall"
+    ],
+    "answer": "Ladder"
+  },
+  {
+    "id": 65,
+    "context": "Drums make a loud sound when hit.",
+    "question": "What instrument do you hit?",
+    "options": [
+      "Flute",
+      "Drum",
+      "Harp",
+      "Violin"
+    ],
+    "answer": "Drum"
+  },
+  {
+    "id": 66,
+    "context": "Turtles move slowly and have hard shells.",
+    "question": "Which animal has a shell?",
+    "options": [
+      "Frog",
+      "Lizard",
+      "Turtle",
+      "Rabbit"
+    ],
+    "answer": "Turtle"
+  },
+  {
+    "id": 67,
+    "context": "Airplanes fly high in the sky and travel fast.",
+    "question": "What flies fast in the sky?",
+    "options": [
+      "Helicopter",
+      "Plane",
+      "Bird",
+      "Balloon"
+    ],
+    "answer": "Plane"
+  },
+  {
+    "id": 68,
+    "context": "The clock has numbers and moving hands.",
+    "question": "What has hands and shows time?",
+    "options": [
+      "Map",
+      "Clock",
+      "Radio",
+      "Watch"
+    ],
+    "answer": "Clock"
+  },
+  {
+    "id": 69,
+    "context": "Paint is used to add color to walls and art.",
+    "question": "What adds color to walls?",
+    "options": [
+      "Ink",
+      "Paint",
+      "Chalk",
+      "Paper"
+    ],
+    "answer": "Paint"
+  },
+  {
+    "id": 70,
+    "context": "Cheese is made from milk and can be sliced.",
+    "question": "What is made from milk and sliced?",
+    "options": [
+      "Yogurt",
+      "Butter",
+      "Cheese",
+      "Cream"
+    ],
+    "answer": "Cheese"
+  },
+  {
+    "id": 71,
+    "context": "Volcanoes erupt with lava and smoke.",
+    "question": "What erupts with lava?",
+    "options": [
+      "Hill",
+      "Mountain",
+      "Volcano",
+      "Cave"
+    ],
+    "answer": "Volcano"
+  },
+  {
+    "id": 72,
+    "context": "Scissors are tools used to cut paper and fabric.",
+    "question": "What tool cuts paper?",
+    "options": [
+      "Knife",
+      "Pen",
+      "Scissors",
+      "Stick"
+    ],
+    "answer": "Scissors"
+  },
+  {
+    "id": 73,
+    "context": "A zebra crossing is marked with white stripes on roads.",
+    "question": "What has white stripes on roads?",
+    "options": [
+      "Zebra",
+      "Sign",
+      "Crossing",
+      "Lane"
+    ],
+    "answer": "Crossing"
+  },
+  {
+    "id": 74,
+    "context": "Paper is made from wood and used for writing.",
+    "question": "What is used for writing and comes from trees?",
+    "options": [
+      "Plastic",
+      "Cloth",
+      "Paper",
+      "Glass"
+    ],
+    "answer": "Paper"
+  },
+  {
+    "id": 75,
+    "context": "Peacocks have colorful feathers and long tails.",
+    "question": "Which bird has colorful feathers?",
+    "options": [
+      "Crow",
+      "Peacock",
+      "Duck",
+      "Eagle"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 76,
+    "context": "Mountains are tall landforms that rise high above the ground.",
+    "question": "What rises high from the land?",
+    "options": [
+      "River",
+      "Mountain",
+      "Valley",
+      "Lake"
+    ],
+    "answer": "Mountain"
+  },
+  {
+    "id": 77,
+    "context": "Frogs can jump far and live near water.",
+    "question": "What jumps and lives near water?",
+    "options": [
+      "Fish",
+      "Frog",
+      "Dog",
+      "Snake"
+    ],
+    "answer": "Frog"
+  },
+  {
+    "id": 78,
+    "context": "A thermometer measures temperature.",
+    "question": "What tool measures temperature?",
+    "options": [
+      "Clock",
+      "Thermometer",
+      "Scale",
+      "Barometer"
+    ],
+    "answer": "Thermometer"
+  },
+  {
+    "id": 79,
+    "context": "Bananas are yellow and grow in bunches.",
+    "question": "Which fruit is yellow and curved?",
+    "options": [
+      "Apple",
+      "Banana",
+      "Pear",
+      "Plum"
+    ],
+    "answer": "Banana"
+  },
+  {
+    "id": 80,
+    "context": "Raincoats keep people dry during rain.",
+    "question": "What do you wear when it rains?",
+    "options": [
+      "Coat",
+      "Raincoat",
+      "Sweater",
+      "Shirt"
+    ],
+    "answer": "Raincoat"
+  },
+  {
+    "id": 81,
+    "context": "Hammers are tools used to hit nails.",
+    "question": "What tool hits nails?",
+    "options": [
+      "Wrench",
+      "Hammer",
+      "Saw",
+      "Drill"
+    ],
+    "answer": "Hammer"
+  },
+  {
+    "id": 82,
+    "context": "Bees make honey and live in hives.",
+    "question": "What makes honey?",
+    "options": [
+      "Fly",
+      "Bee",
+      "Ant",
+      "Wasp"
+    ],
+    "answer": "Bee"
+  },
+  {
+    "id": 83,
+    "context": "A wallet holds money and cards.",
+    "question": "What holds money and cards?",
+    "options": [
+      "Purse",
+      "Wallet",
+      "Bag",
+      "Pocket"
+    ],
+    "answer": "Wallet"
+  },
+  {
+    "id": 84,
+    "context": "Penguins live in cold places and cannot fly.",
+    "question": "Which bird lives in cold places?",
+    "options": [
+      "Owl",
+      "Penguin",
+      "Crow",
+      "Sparrow"
+    ],
+    "answer": "Penguin"
+  },
+  {
+    "id": 85,
+    "context": "The moon appears in the night sky and reflects light.",
+    "question": "What appears in the night sky?",
+    "options": [
+      "Sun",
+      "Star",
+      "Moon",
+      "Comet"
+    ],
+    "answer": "Moon"
+  },
+  {
+    "id": 86,
+    "context": "A suitcase is used to carry clothes while traveling.",
+    "question": "What carries clothes when traveling?",
+    "options": [
+      "Box",
+      "Suitcase",
+      "Drawer",
+      "Basket"
+    ],
+    "answer": "Suitcase"
+  },
+  {
+    "id": 87,
+    "context": "Chairs have legs and are used for sitting.",
+    "question": "What do you sit on?",
+    "options": [
+      "Table",
+      "Bed",
+      "Chair",
+      "Couch"
+    ],
+    "answer": "Chair"
+  },
+  {
+    "id": 88,
+    "context": "Milk comes from cows and is used in many foods.",
+    "question": "What do cows produce?",
+    "options": [
+      "Water",
+      "Wool",
+      "Milk",
+      "Meat"
+    ],
+    "answer": "Milk"
+  },
+  {
+    "id": 89,
+    "context": "Keys on a keyboard are used to type letters.",
+    "question": "What do you use to type letters?",
+    "options": [
+      "Mouse",
+      "Pen",
+      "Keyboard",
+      "Monitor"
+    ],
+    "answer": "Keyboard"
+  },
+  {
+    "id": 90,
+    "context": "Cups are used to drink liquids like water and tea.",
+    "question": "What do you use to drink tea?",
+    "options": [
+      "Bottle",
+      "Plate",
+      "Cup",
+      "Fork"
+    ],
+    "answer": "Cup"
+  },
+  {
+    "id": 91,
+    "context": "The sun gives heat and light to the Earth.",
+    "question": "What gives heat to Earth?",
+    "options": [
+      "Star",
+      "Sun",
+      "Moon",
+      "Planet"
+    ],
+    "answer": "Sun"
+  },
+  {
+    "id": 92,
+    "context": "An umbrella blocks rain and keeps people dry.",
+    "question": "What keeps you dry in rain?",
+    "options": [
+      "Hat",
+      "Umbrella",
+      "Towel",
+      "Coat"
+    ],
+    "answer": "Umbrella"
+  },
+  {
+    "id": 93,
+    "context": "The dentist helps keep your teeth healthy.",
+    "question": "Who checks your teeth?",
+    "options": [
+      "Doctor",
+      "Nurse",
+      "Dentist",
+      "Chef"
+    ],
+    "answer": "Dentist"
+  },
+  {
+    "id": 94,
+    "context": "The library is a place to read and borrow books.",
+    "question": "Where can you borrow books?",
+    "options": [
+      "Bookstore",
+      "Library",
+      "School",
+      "Office"
+    ],
+    "answer": "Library"
+  },
+  {
+    "id": 95,
+    "context": "A clock tower shows the time in large public areas.",
+    "question": "What shows time in town squares?",
+    "options": [
+      "Statue",
+      "Clock",
+      "Lamp",
+      "Bell"
+    ],
+    "answer": "Clock"
+  },
+  {
+    "id": 96,
+    "context": "A whistle makes a loud sound when blown.",
+    "question": "What makes a sound when blown?",
+    "options": [
+      "Horn",
+      "Whistle",
+      "Drum",
+      "Siren"
+    ],
+    "answer": "Whistle"
+  },
+  {
+    "id": 97,
+    "context": "Paintbrushes are used to apply paint to surfaces.",
+    "question": "What spreads paint?",
+    "options": [
+      "Pen",
+      "Roller",
+      "Brush",
+      "Sponge"
+    ],
+    "answer": "Brush"
+  },
+  {
+    "id": 98,
+    "context": "A compass is used to find directions like north and south.",
+    "question": "What tool helps you find directions?",
+    "options": [
+      "Map",
+      "Compass",
+      "GPS",
+      "Clock"
+    ],
+    "answer": "Compass"
+  },
+  {
+    "id": 99,
+    "context": "A backpack is used to carry books and supplies.",
+    "question": "What is used to carry school supplies?",
+    "options": [
+      "Bag",
+      "Backpack",
+      "Suitcase",
+      "Basket"
+    ],
+    "answer": "Backpack"
+  },
+  {
+    "id": 100,
+    "context": "A flashlight is used to see in the dark.",
+    "question": "What helps you see in the dark?",
+    "options": [
+      "Lamp",
+      "Flashlight",
+      "Candle",
+      "Mirror"
+    ],
+    "answer": "Flashlight"
   }
 ]
