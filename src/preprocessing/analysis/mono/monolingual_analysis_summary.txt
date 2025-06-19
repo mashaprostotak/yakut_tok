@@ -1,29 +1,29 @@
-# Monolingual Sakha Corpus Analysis
-## Analysis of Yakut (Sakha) Language Text Corpus
+ Monolingual Sakha Corpus Analysis
+ Analysis of Yakut (Sakha) Language Text Corpus
 
-### Introduction
+ Introduction
 
 This document summarizes the findings from our analysis of a monolingual Sakha language corpus. The analysis examines sentence length characteristics, word frequency distributions, and vocabulary statistics to provide insights into the structural and lexical properties of Sakha text.
 
-### Dataset
+ Dataset
 
 The analysis was performed on a large Sakha text corpus:
-- **Corpus name**: yakut_clean.txt
-- **Size**: 25.5 MB
-- **Total sentences**: 45,246
-- **Analysis sample**: Random sample of 10,000 sentences (22% of corpus)
+- Corpus name: yakut_clean.txt
+- Size: 25.5 MB
+- Total sentences: 45,246
+- Analysis sample: Random sample of 10,000 sentences (22% of corpus)
 
-### Key Findings
+ Key Findings
 
-#### Sentence Structure Analysis
+ Sentence Structure Analysis
 
-**Character Length Distribution:**
+Character Length Distribution:
 - Mean sentence length: 318.9 characters
 - Standard deviation: 294.4 characters
 - Median: 232.0 characters
 - Range: 16 to 8,612 characters
 
-**Word Length Distribution:**
+Word Length Distribution:
 - Mean words per sentence: 39.2 words
 - Standard deviation: 35.7 words
 - Median: 29.0 words
@@ -31,24 +31,24 @@ The analysis was performed on a large Sakha text corpus:
 
 The relatively high standard deviations in both character and word counts indicate significant variability in sentence lengths across the corpus. The median values being lower than the means suggests a right-skewed distribution, with most sentences being shorter while a smaller number of very long sentences pull the average higher.
 
-#### Vocabulary Analysis
+ Vocabulary Analysis
 
-**Corpus Size and Vocabulary:**
+Corpus Size and Vocabulary:
 - Total word tokens in sample: 391,989
 - Unique words (vocabulary size): 113,191
 - Vocabulary diversity ratio (unique/total): 0.2888
 
-**Word Frequency Characteristics:**
+Word Frequency Characteristics:
 - Most frequent words: "да" (3,430), "диэн" (3,329), "уонна" (3,314), "–" (2,224), "Ол" (1,675)
 - Hapax legomena (words occurring once): 80,422 (71.05% of vocabulary)
 - The high percentage of hapax legomena indicates a rich vocabulary with many rare words
 
-**Word Length in Vocabulary:**
+Word Length in Vocabulary:
 - Mean word length: 9.43 characters
 - Median word length: 9.0 characters
 - Most common word length: 9 characters
 
-#### Vocabulary Coverage
+ Vocabulary Coverage
 
 The analysis of vocabulary coverage reveals insights into the efficiency of the lexicon:
 
@@ -59,29 +59,29 @@ The analysis of vocabulary coverage reveals insights into the efficiency of the 
 
 This demonstrates the typical Zipfian distribution found in natural languages, where a relatively small number of high-frequency words account for a disproportionately large portion of text coverage.
 
-### Word Structure Observations
+ Word Structure Observations
 
 Sakha, as an agglutinative Turkic language, displays distinctive structural characteristics:
 
-1. **Word Length**: With an average word length of 9.43 characters, Sakha words are notably longer than those typically found in non-agglutinative languages (e.g., English averages around 5 characters per word)
+1. Word Length: With an average word length of 9.43 characters, Sakha words are notably longer than those typically found in non-agglutinative languages (e.g., English averages around 5 characters per word)
 
-2. **Morphological Complexity**: The high average word length reflects Sakha's agglutinative nature, where grammatical information is added to words through suffixes rather than through separate words
+2. Morphological Complexity: The high average word length reflects Sakha's agglutinative nature, where grammatical information is added to words through suffixes rather than through separate words
 
-3. **Word Formation**: Many of the longest words in the corpus demonstrate the agglutinative nature of Sakha, with multiple morphemes combined into single orthographic units
+3. Word Formation: Many of the longest words in the corpus demonstrate the agglutinative nature of Sakha, with multiple morphemes combined into single orthographic units
 
-### Implications for NLP Applications
+ Implications for NLP Applications
 
 These findings have several implications for natural language processing applications for Sakha:
 
-1. **Tokenization Approaches**: Standard tokenization methods may be suboptimal for Sakha. Given the agglutinative nature and long word lengths, subword tokenization methods (like BPE or SentencePiece) would likely be more effective than word-level tokenization
+1. Tokenization Approaches: Standard tokenization methods may be suboptimal for Sakha. Given the agglutinative nature and long word lengths, subword tokenization methods (like BPE or SentencePiece) would likely be more effective than word-level tokenization
 
-2. **Vocabulary Size Considerations**: The large vocabulary size (113,191 unique words in just a 10,000 sentence sample) suggests that open-vocabulary approaches or subword modeling would be necessary for effective NLP applications
+2. Vocabulary Size Considerations: The large vocabulary size (113,191 unique words in just a 10,000 sentence sample) suggests that open-vocabulary approaches or subword modeling would be necessary for effective NLP applications
 
-3. **Data Sparsity**: The high proportion of hapax legomena (71.05%) indicates significant data sparsity challenges. This suggests that data augmentation techniques or transfer learning from related languages might be beneficial
+3. Data Sparsity: The high proportion of hapax legomena (71.05%) indicates significant data sparsity challenges. This suggests that data augmentation techniques or transfer learning from related languages might be beneficial
 
-4. **Language Model Architecture**: The long average sentence length (39.2 words) may require NLP models with longer context windows than those typically used for languages with shorter average sentence lengths
+4. Language Model Architecture: The long average sentence length (39.2 words) may require NLP models with longer context windows than those typically used for languages with shorter average sentence lengths
 
-### Conclusion
+ Conclusion
 
 The analysis of the Sakha monolingual corpus reveals a language with rich morphological structure, evident in its long average word length and high vocabulary diversity. The corpus displays typical Zipfian distribution characteristics, with a small set of high-frequency words accounting for a significant portion of the text.
 

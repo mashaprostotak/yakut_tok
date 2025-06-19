@@ -1,0 +1,97 @@
+Length ratio statistics (en/sah):
+
+Word count ratio:
+Mean: 1.20
+Median: 1.00
+Min: 0.33
+Max: 3.33
+
+Character count ratio:
+Mean: 1.12
+Median: 1.00
+Min: 0.16
+Max: 13.50
+
+Example sentences with length information:
+
+Example 1:
+sah: Сычуань — 19 февраля 1997, Пекин) — кытай бэлиитигэ уонна реформатора, Кытай Хомуньуус Баартыйатын диэйэтэлэ.
+Word count: 15
+Char count: 109
+en: Сычуань — 19 февраля 1997, Пекин) — китайский политик и реформатор, деятель Коммунистической партии Китая.
+Word count: 15
+Char count: 106
+Word ratio: 1.00
+Char ratio: 0.97
+
+Example 2:
+sah: Дэн хаһан даҕаны дойдуну салайар дуоһунаска олорботоҕо, ол эрээри 1970 сылтан 1990 сылга дылы Кытай дьиҥнээх салайааччыта этэ.
+Word count: 18
+Char count: 126
+en: Дэн никогда не занимал пост руководителя страны, но был фактическим руководителем Китая с конца 1970-х до начала 1990-х гг.
+Word count: 19
+Char count: 123
+Word ratio: 1.06
+Char ratio: 0.98
+
+Example 3:
+sah: Дэн Сяопин Францияҕа үөрэнэ сылдьар кэмэ
+Word count: 6
+Char count: 40
+en: Дэн Сяопин во время учёбы во Франции
+Word count: 7
+Char count: 36
+Word ratio: 1.17
+Char ratio: 0.90
+
+Example 4:
+sah: Компаниа таҥара дьиэтэ
+Word count: 3
+Char count: 22
+en: Церковь Компаниа
+Word count: 2
+Char count: 16
+Word ratio: 0.67
+Char ratio: 0.73
+
+Example 5:
+sah: Ку́ско (исп. Cuzco, кечуа Qusqu, Qosqo) — Перу соҕуруулуу-арҕаа өттүгэр баар куорат, Куско регионун административнай киинэ уонна итинник аатта провинция.
+Word count: 20
+Char count: 153
+en: Ку́ско (исп. Cuzco, кечуа Qusqu, Qosqo) — город на юго-западе Перу, административный центр региона Куско и одноимённой провинции.
+Word count: 18
+Char count: 129
+Word ratio: 0.90
+Char ratio: 0.84
+
+Vocabulary statistics:
+sah vocabulary size: 33219 unique words
+en vocabulary size: 41093 unique words
+sah vocabulary diversity: 0.3363
+en vocabulary diversity: 0.3571
+
+Most common sah words:
+  уонна: 1981
+  —: 1333
+  диэн: 1156
+  сыллаахха: 916
+  ол: 792
+  кини: 412
+  бу: 380
+  кытта: 351
+  сыл: 346
+  аан: 312
+
+Most common en words:
+  в: 5196
+  и: 3149
+  —: 2175
+  на: 1445
+  с: 1161
+  по: 631
+  году: 615
+  из: 559
+  к: 468
+  года: 425
+
+
