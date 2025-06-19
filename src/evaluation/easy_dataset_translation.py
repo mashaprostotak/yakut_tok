@@ -57,7 +57,7 @@ def translate_dataset_incremental(dataset, translate_client, project_id, output_
 
 if __name__ == "__main__":
     # Google Cloud service account key path
-    GOOGLE_APPLICATION_CREDENTIALS = "/Users/rada/Documents/yakut-translator-d85c3f7f6eef.json"
+    GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
 
     # Load credentials and create client
     credentials = service_account.Credentials.from_service_account_file(GOOGLE_APPLICATION_CREDENTIALS)
