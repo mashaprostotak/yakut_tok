@@ -1,21 +1,19 @@
 import json
 import pandas as pd
 
-# === FILE PATHS ===
-csv_file = 'corrected_data.csv'
-json_file = 'processed/synthetic_dataset_yakut.json'
-output_file = 'updated_data.json'
+CSV_FILE = "corrected_data.csv"
+JSON_FILE = "processed/synthetic_dataset_yakut.json"
+OUTPUT_FILE = "updated_data.json"
 
-# === READ FILES ===
-df = pd.read_csv(csv_file)
-with open(json_file, 'r', encoding='utf-8') as f:
+df = pd.read_csv(CSV_FILE)
+with open(JSON_FILE, 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
-# === CHECK LENGTH ===
+# Check if the number of records in CSV and JSON match
 if len(json_data) != len(df):
     raise ValueError("CSV and JSON do not have the same number of records!")
 
-# === REPLACE FIELDS ===
+# Update JSON data with corrected fields from CSV
 for i, item in enumerate(json_data):
     item['context'] = df.loc[i, 'corrected yakut context']
     item['question'] = df.loc[i, 'corrected yakut question']
@@ -33,8 +31,7 @@ for i, item in enumerate(json_data):
     
     item['answer'] = df.loc[i, 'corrected yakut answer']
 
-# === WRITE UPDATED JSON ===
-with open(output_file, 'w', encoding='utf-8') as f:
+with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     json.dump(json_data, f, ensure_ascii=False, indent=2)
 
-print(f"Updated JSON saved to {output_file}")
+print(f"Updated JSON saved to {OUTPUT_FILE}")

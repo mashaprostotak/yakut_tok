@@ -42,5 +42,4 @@ def check_uniqueness(file_path):
     else:
         print("\nAll questions are unique.")
 
-# Run the check
-check_uniqueness("../../data/processed/easy_mcq_dataset.json")
+check_uniqueness("../../data/processed/synthetic/synthetic_dataset_yakut.json")
