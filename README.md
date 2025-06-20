@@ -41,14 +41,14 @@ project/
 │   │   ├── translate_using_model.py # Neural translation model
 │   │   ├── analysis/             # Data analysis tools
 │   │   └── README.md             # Preprocessing documentation
-│   ├── tokenization/         # Custom tokenizer code implementation
-│   ├── training/             # Model implementation and fine-tuning files
-│   ├── evaluation/           # Evaluation scripts and metrics
-│   └── utils/                # Helper functions
+│   ├── tokenization/           # Custom tokenizer code implementation
+│   ├── training/               # Model implementation and fine-tuning files
+│   ├── evaluation/             # Evaluation scripts and metrics
+│   └── utils/                  # Helper functions
 │       ├── check_uniqueness.py   # Script to to check duplicate entries in synthetic JSON dataset
 │       ├── csv_to_json.py        # Script to convert synthetic CSV file to JSON file
-│       └── run_translation.sh    # Translation pipeline script
-├── requirements.txt          # Python dependencies
+│       └── run_translation.sh    # Script for translation pipeline (from Yakut to English)
+├── requirements.txt         # Python dependencies
 ├── .gitignore               # Git ignore rules
 └── README.md                # This file
 ```
