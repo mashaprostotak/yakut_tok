@@ -3,6 +3,10 @@ import os
 from google.cloud import translate_v3
 from google.oauth2 import service_account
 
+INPUT_FILE = "../../data/processed/synthetic/synthetic_dataset_en.json"
+OUTPUT_FILE = "../../data/processed/synthetic/synthetic_dataset_yakut.json"
+GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
+
 def translate_text(text, source_lang, target_lang, translate_client, project_id):
     if not translate_client or not project_id:
         print(f"Translation client not available")
@@ -56,27 +60,19 @@ def translate_dataset_incremental(dataset, translate_client, project_id, output_
 
 
 if __name__ == "__main__":
-    # Google Cloud service account key path
-    GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
-
     # Load credentials and create client
     credentials = service_account.Credentials.from_service_account_file(GOOGLE_APPLICATION_CREDENTIALS)
     translate_client = translate_v3.TranslationServiceClient(credentials=credentials)
     project_id = credentials.project_id
 
-    # Load your 100-item dataset (replace 'your_dataset.json' with your file)
-    with open("../../data/processed/easy_mcq_dataset.json", "r", encoding="utf-8") as f:
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
         dataset = json.load(f)
 
-    # Output file path
-    output_path = "easy_dataset_translated_sah.json"
-
-    # Run incremental translation
     translate_dataset_incremental(
         dataset,
         translate_client,
         project_id,
-        output_path,
+        OUTPUT_FILE,
         source_lang="en",
         target_lang="sah"
     )

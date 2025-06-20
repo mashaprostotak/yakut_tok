@@ -2,7 +2,7 @@ import random
 import re
 
 INPUT_FILE = "../../data/processed/monolingual/yakut_clean.txt"
-OUTPUT_FILE = "mlm_eval.tsv"
+OUTPUT_FILE = "../../data/processed/masked/mlm_eval.tsv"
 NUM_EXAMPLES = 1000  # Number of masked examples to generate
 PUNCTUATION = set(".,!?;:\"()[]{}—-") # Common punctuation marks to exclude from masking
 
@@ -42,7 +42,7 @@ def main():
         for masked, answer in output:
             f.write(f"{masked}\t{answer}\n")
 
-    print(f"✅ Generated {len(output)} examples in {OUTPUT_FILE}")
+    print(f"Generated {len(output)} examples in {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

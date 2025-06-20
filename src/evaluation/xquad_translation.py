@@ -4,6 +4,9 @@ from google.cloud import translate_v3
 from google.oauth2 import service_account
 from datasets import load_dataset
 
+GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
+OUTPUT_PATH = "../../data/processed/xquad/xquad_translated_sah_huggingface.json"
+
 def translate_text(text, source_lang, target_lang, translate_client, project_id):
     if not translate_client or not project_id:
         print(f"Translation client not available")
@@ -96,10 +99,7 @@ def convert_xquad_hf_to_squad_format(hf_dataset):
     return {"data": articles}
 
 if __name__ == "__main__":
-    # Path to your Google Cloud service account credentials
-    GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
-
-    # Load credentials and initialize translator
+    # Load credentials and create client
     credentials = service_account.Credentials.from_service_account_file(GOOGLE_APPLICATION_CREDENTIALS)
     translate_client = translate_v3.TranslationServiceClient(credentials=credentials)
     project_id = credentials.project_id
@@ -108,13 +108,11 @@ if __name__ == "__main__":
     dataset = load_dataset("xquad", "xquad.en")
     xquad_data = convert_xquad_hf_to_squad_format(dataset["validation"])
 
-    # Output path and languages
-    output_path = "xquad_translated_sah.json"
     translate_xquad_incremental(
         xquad_data,
         translate_client,
         project_id,
-        output_path,
+        OUTPUT_PATH,
         source_lang="en",
         target_lang="sah"
     )
