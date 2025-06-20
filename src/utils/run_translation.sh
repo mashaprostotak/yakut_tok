@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 CORPUS=${1:-all}
 
