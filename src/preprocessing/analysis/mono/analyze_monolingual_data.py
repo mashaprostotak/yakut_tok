@@ -24,8 +24,8 @@ class Logger:
         self.log_file.flush()
 
 # Set paths
-MONOLINGUAL_DIR = "/Users/SvetlaMaria/Desktop/WORK/ETH/CSNLP/Project/project/data/processed/monolingual"
-OUTPUT_DIR = "/Users/SvetlaMaria/Desktop/WORK/ETH/CSNLP/Project/project/src/preprocessing/analysis"
+MONOLINGUAL_DIR = "../../../../data/processed/monolingual"
+OUTPUT_DIR = "../"
 
 def load_monolingual_data(file_path, sample_size=10000, random_seed=42):
     """Load monolingual data from a file into a pandas DataFrame.
