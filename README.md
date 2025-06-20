@@ -1,13 +1,18 @@
-# Yakut NLP Project
+# Project Title
 
-This repository contains the codebase for developing NLP tools and models for the Yakut (Sakha) language.
+SOMETHINGGGGG HEREEEEE
+
+# Project Description
+
+This repository contains the codebase and datasets for developing NLP tools and models for the low-resource language, Yakut (Sakha).
 
 ## Project Overview
 
 Project goals:
 - Process Yakut-Russian parallel corpora and monolingual text
 - Develop custom tokenizer for Yakut
-- Fine-tune language models for Yakut
+- Integrate the tokenizer with a pre-trained LLM
+- Fine-tune the resultant language model for Yakut
 - Evaluate model performance
 
 ## Repository Structure
@@ -47,7 +52,7 @@ project/
 
 - [OPUS Sakha-Russian corpus](https://opus.nlpl.eu/results/sah&ru/corpus-result-table)
 - [OSCAR corpus](https://oscar-project.github.io/documentation/versions/oscar-2019/#downloading-oscar)
-
+- MOREEE HEREEEE
 
 
 ## Key Components
