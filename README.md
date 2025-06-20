@@ -20,29 +20,34 @@ Project goals:
 ```
 project/
 ├── data/                     # Data storage
-│   ├── raw/                  # Original corpus data from OPUS and OSCAR
-│   │   ├── opus/             # OPUS parallel corpus data
-│   │   └── oscar/            # OSCAR monolingual corpus data
-│   ├── processed/            # Cleaned and preprocessed data
-│   │   ├── parallel/         # Processed parallel corpus data
-│   │   ├── monolingual/      # Processed monolingual data
-│   │   └── analysis/         # Data analysis results
-│   ├── muri_instructions/    # MURI-based instruction data
-│   └── README.md             # Data documentation and guidelines
+│   ├── raw/                    # Original corpus data from OPUS and OSCAR
+│   │   ├── opus/                 # OPUS parallel corpus data
+│   │   ├── oscar/                # OSCAR monolingual corpus data
+|   |   └── xquad/                # XQuAD english version data
+│   ├── processed/              # Cleaned and preprocessed data
+│   │   ├── analysis/parallel/    # Statitic & visual analysis results for the data corpus
+│   │   ├── masked/               # Dataset used for MLM task (Phase4)
+│   │   ├── monolingual/          # Text data used for training the tokenizer
+|   |   ├── parallel/             # Parallel (multiple) corpus data for model training (Phase1)
+|   |   ├── synthetic/            # Evaluation dataset for the final model
+|   |   └── xquad/                # XQuAD data used for model training (Phase3)
+│   ├── muri_instructions/        # MURI-based instruction data for model training (Phase2)
+│   └── README.md                 # Data documentation and guidelines
 ├── src/                      # Source code
-│   ├── preprocessing/        # Data cleaning and preparation
-│   │   ├── text_cleaner.py   # Text cleaning utilities for Yakut language
-│   │   ├── process_oscar.py  # OSCAR corpus processing
-│   │   ├── process_parallel.py # Parallel corpus processing
+│   ├── preprocessing/          # Data cleaning and preparation
+│   │   ├── text_cleaner.py       # Text cleaning utilities for Yakut language
+│   │   ├── process_oscar.py      # OSCAR corpus processing
+│   │   ├── process_parallel.py   # Parallel corpus processing
 │   │   ├── translate_using_model.py # Neural translation model
-│   │   ├── analysis/         # Data analysis tools
-│   │   └── README.md         # Preprocessing documentation
-│   ├── tokenization/         # Custom tokenizer implementation
-│   ├── models/               # Model implementation and fine-tuning
+│   │   ├── analysis/             # Data analysis tools
+│   │   └── README.md             # Preprocessing documentation
+│   ├── tokenization/         # Custom tokenizer code implementation
+│   ├── training/             # Model implementation and fine-tuning files
 │   ├── evaluation/           # Evaluation scripts and metrics
 │   └── utils/                # Helper functions
-│       ├── download_data.py  # Script to download OPUS and OSCAR corpora
-│       └── run_translation.sh # Translation pipeline script
+│       ├── check_uniqueness.py   # Script to to check duplicate entries in synthetic JSON dataset
+│       ├── csv_to_json.py        # Script to convert synthetic CSV file to JSON file
+│       └── run_translation.sh    # Translation pipeline script
 ├── requirements.txt          # Python dependencies
 ├── .gitignore               # Git ignore rules
 └── README.md                # This file
