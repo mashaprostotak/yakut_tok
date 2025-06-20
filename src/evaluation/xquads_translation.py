@@ -4,8 +4,10 @@ from google.cloud import translate_v3
 from google.oauth2 import service_account
 from datasets import load_dataset
 
+INPUT_PATH_DEEPMIND = "../../data/raw/xquad/xquad.en.json"
+OUTPUT_PATH_HUGGINGFACE = "../../data/processed/xquad/xquad_translated_sah_huggingface.json"
+OUTPUT_PATH_DEEPMIND = "../../data/processed/xquad/xquad_translated_sah_deepmind.json"
 GOOGLE_APPLICATION_CREDENTIALS = "REPLACE_WITH_YOUR_CREDENTIALS.json"
-OUTPUT_PATH = "../../data/processed/xquad/xquad_translated_sah_huggingface.json"
 
 def translate_text(text, source_lang, target_lang, translate_client, project_id):
     if not translate_client or not project_id:
@@ -104,17 +106,34 @@ if __name__ == "__main__":
     translate_client = translate_v3.TranslationServiceClient(credentials=credentials)
     project_id = credentials.project_id
 
-    # Load and convert the latest XQuAD dataset from Hugging Face
-    dataset = load_dataset("xquad", "xquad.en")
-    xquad_data = convert_xquad_hf_to_squad_format(dataset["validation"])
+    # Load and convert the DeepMind XQuAD dataset
+    with open(INPUT_PATH_DEEPMIND, "r", encoding="utf-8") as f:
+        xquad_deepmind = json.load(f)
+
+    xquad_deepmind = convert_xquad_hf_to_squad_format(xquad_deepmind)
 
     translate_xquad_incremental(
-        xquad_data,
+        xquad_deepmind,
         translate_client,
         project_id,
-        OUTPUT_PATH,
+        OUTPUT_PATH_DEEPMIND,
         source_lang="en",
         target_lang="sah"
     )
 
-    print("All done!")
+    print("DeepMind XQuAD done!")
+
+    # Load and convert the latest XQuAD dataset from Hugging Face
+    dataset = load_dataset("xquad", "xquad.en")
+    xquad_huggingface = convert_xquad_hf_to_squad_format(dataset["validation"])
+
+    translate_xquad_incremental(
+        xquad_huggingface,
+        translate_client,
+        project_id,
+        OUTPUT_PATH_HUGGINGFACE,
+        source_lang="en",
+        target_lang="sah"
+    )
+
+    print("HuggingFace XQuAD done!")
