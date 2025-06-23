@@ -1,0 +1,621 @@
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=3,
+            temperature=0.9,
+            num_beams=5,
+            early_stopping=True,
+            pad_token_id=tokenizer.eos_token_id
+        )
+    
+
+
+
+
+Evaluation Results:
+Total Questions: 100
+Correct Answers: 13
+Accuracy: 13.00%
+
+
+--- Detailed Predictions vs. True Answers ---
+ID: 1
+  Question: Ханнык кыыл сылаас сиргэ элбэхтик утуйарый?
+  True Answer: Куоска
+  Generated Answer: Уэль
+  Result: INCORRECT
+--------------------
+ID: 2
+  Question: Былыттан туох түһэрий?
+  True Answer: Ардах
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 3
+  Question: Тимир суолга туох айанныырый?
+  True Answer: Поезд
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 4
+  Question: Ханнык фрукта маска үүнэрий?
+  True Answer: Дьаабылака
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 5
+  Question: Күнүс сырдыгы туох биэрэрий?
+  True Answer: Күн
+  Generated Answer: Пантер
+  Result: INCORRECT
+--------------------
+ID: 6
+  Question: Кустар ханна сымыыттыылларый?
+  True Answer: Уйа
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 7
+  Question: Ынахтан туох тахсарый?
+  True Answer: Үүт
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 8
+  Question: Тигээйилэр тугу оҥороллоруй?
+  True Answer: мүөт
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 9
+  Question: Туох хайыынан тыынар?
+  True Answer: Балык
+  Generated Answer: Уэль
+  Result: INCORRECT
+--------------------
+ID: 10
+  Question: Күһүн мастан туох түһэрий?
+  True Answer: Сэбирдэхтэр
+  Generated Answer: Куй
+  Result: INCORRECT
+--------------------
+ID: 11
+  Question: Төгүрүк уонна түүн көстөр тугуй?
+  True Answer: Ый
+  Generated Answer: Тибет
+  Result: INCORRECT
+--------------------
+ID: 12
+  Question: Атаххын туох харыстыырый?
+  True Answer: Бачыыҥкалар
+  Generated Answer: Хаа
+  Result: INCORRECT
+--------------------
+ID: 13
+  Question: Муус туох буоларый?
+  True Answer: Уу
+  Generated Answer: Хаар
+  Result: INCORRECT
+--------------------
+ID: 14
+  Question: Ханнык харамай ууга уонна сиргэ олороруй?
+  True Answer: Баҕа
+  Generated Answer: Көтөр
+  Result: INCORRECT
+--------------------
+ID: 15
+  Question: Үүттэн тугу оҥороллоруй?
+  True Answer: Сиикэй Арыы
+  Generated Answer: Уустук
+  Result: INCORRECT
+--------------------
+ID: 16
+  Question: Туохха олоробут?
+  True Answer: Олоппос
+  Generated Answer: Гарвар
+  Result: INCORRECT
+--------------------
+ID: 17
+  Question: Бириэмэни туох көрдөрөрүй?
+  True Answer: Истиэнэ Чаһыы
+  Generated Answer: Истиэнэ Чаһыы
+  Result: CORRECT
+--------------------
+ID: 18
+  Question: Суолга туох айанныырый?
+  True Answer: Массыына
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 19
+  Question: Ханнык фрукта саһархай уонна уһун буоларый?
+  True Answer: Банан
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 20
+  Question: Суруйарга туох туттулларый?
+  True Answer: Харандаас
+  Generated Answer: Харандаас
+  Result: CORRECT
+--------------------
+ID: 21
+  Question: Халлаан туох өҥнөөҕүй?
+  True Answer: Халлаан күөх
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 22
+  Question: Үрдүк уонна хаардаах диэн тугуй?
+  True Answer: Хайа
+  Generated Answer: Ууну
+  Result: INCORRECT
+--------------------
+ID: 23
+  Question: Ханнык харамай оту сиирий?
+  True Answer: Ынах
+  Generated Answer: Учу
+  Result: INCORRECT
+--------------------
+ID: 24
+  Question: Туох хаптаҕай буоларый?
+  True Answer: Остуол
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 25
+  Question: Ханнык харамай үрэрий?
+  True Answer: Ыт
+  Generated Answer: Ыт
+  Result: CORRECT
+--------------------
+ID: 26
+  Question: Илиини суунарга тугу тутталларый?
+  True Answer: Мыыла
+  Generated Answer: Порошок
+  Result: INCORRECT
+--------------------
+ID: 27
+  Question: Түүн туох чаҕылыйарый?
+  True Answer: Сулус
+  Generated Answer: Самолет
+  Result: INCORRECT
+--------------------
+ID: 28
+  Question: Ханнык фрукта саһархай уонна аһыы буоларый?
+  True Answer: Лимон
+  Generated Answer: Лимон
+  Result: CORRECT
+--------------------
+ID: 29
+  Question: Туох страницалаах уонна тыллардаах буолуой?
+  True Answer: Кинигэ
+  Generated Answer: Суумка
+  Result: INCORRECT
+--------------------
+ID: 30
+  Question: Ороҥҥо туох эйигин сылытар?
+  True Answer: суорҕан
+  Generated Answer: Шот
+  Result: INCORRECT
+--------------------
+ID: 31
+  Question: Туустаах уу туохха баарый?
+  True Answer: Акыйаан
+  Generated Answer: Сороҕор
+  Result: INCORRECT
+--------------------
+ID: 32
+  Question: Тыалга туох көтөрүй?
+  True Answer: Көтөр змей
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 33
+  Question: Оскуолаҕа туох тыаһыыр?
+  True Answer: Чуораан
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 34
+  Question: Итии уонна умайар диэн тугуй?
+  True Answer: Уот
+  Generated Answer: Уот
+  Result: CORRECT
+--------------------
+ID: 35
+  Question: Садтарга туох үүнэрий уонна күөх буоларый?
+  True Answer: От
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 36
+  Question: Эн күлүккүн туох көрдөрөрүй?
+  True Answer: Сиэркилэ
+  Generated Answer: Хамыыһы
+  Result: INCORRECT
+--------------------
+ID: 37
+  Question: Туох икки көлүөһэлээхий?
+  True Answer: Велосипед
+  Generated Answer: Эконо
+  Result: INCORRECT
+--------------------
+ID: 38
+  Question: Атах таҥаһын туох баайарый?
+  True Answer: Шнурок
+  Generated Answer: Пале
+  Result: INCORRECT
+--------------------
+ID: 39
+  Question: Куоракка дьону туох таһарый?
+  True Answer: Автобус
+  Generated Answer: Күл
+  Result: INCORRECT
+--------------------
+ID: 40
+  Question: Сылыттахха туох оргуйарый?
+  True Answer: Уу
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 41
+  Question: Дьиэ иһигэр сырдыгы туох биэрэрий?
+  True Answer: Лаампа
+  Generated Answer: Пале
+  Result: INCORRECT
+--------------------
+ID: 42
+  Question: Төбөҕө туох кэтэллэрий?
+  True Answer: Шляпа
+  Generated Answer: Шляпа
+  Result: CORRECT
+--------------------
+ID: 43
+  Question: Кууруссалар тугу ууралларый?
+  True Answer: Сымыыттар
+  Generated Answer: Пей
+  Result: INCORRECT
+--------------------
+ID: 44
+  Question: Кыһын туох түһэрий?
+  True Answer: Хаар
+  Generated Answer: Күл
+  Result: INCORRECT
+--------------------
+ID: 45
+  Question: Туох дириҥ силистээҕий?
+  True Answer: Мас
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 46
+  Question: Туох кытаанаҕый уонна сиргэ турарый?
+  True Answer: Таас
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 47
+  Question: Эйигин сойутаары салгыны туох үрэрий?
+  True Answer: Вентилятор
+  Generated Answer: Паар
+  Result: INCORRECT
+--------------------
+ID: 48
+  Question: Минньигэс уонна духовкаҕа буспут ас диэн тугуй?
+  True Answer: бэчиэнньэ
+  Generated Answer: Паар
+  Result: INCORRECT
+--------------------
+ID: 49
+  Question: Аһы туох тымнытар?
+  True Answer: Холодильник
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 50
+  Question: Ханнык тэрил быһарга сытыы буоларый?
+  True Answer: Быһах
+  Generated Answer: A)
+  Result: INCORRECT
+--------------------
+ID: 51
+  Question: Дьон ыраахха тугунан кэпсэтэллэрий?
+  True Answer: Төлөпүөн
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 52
+  Question: Туох ситими баайарый?
+  True Answer: ооҕуй оҕус
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 53
+  Question: Ханнык ас сыырдаах уонна төгүрүк буоларый?
+  True Answer: Пицца
+  Generated Answer: Уустук
+  Result: INCORRECT
+--------------------
+ID: 54
+  Question: Сытыытык көрөргө туох көмөлөһөрүй?
+  True Answer: Ачыкы
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 55
+  Question: Ардах уонна күн кэнниттэн туох көстөрүй?
+  True Answer: кустук
+  Generated Answer: Джей
+  Result: INCORRECT
+--------------------
+ID: 56
+  Question: Умайдаҕына туох сырдыгы биэрэрий?
+  True Answer: Чүмэчи
+  Generated Answer: Уот
+  Result: INCORRECT
+--------------------
+ID: 57
+  Question: Халлааҥҥа туох тэлээрэ көтө сылдьарый?
+  True Answer: Былыт
+  Generated Answer: Көтөр
+  Result: INCORRECT
+--------------------
+ID: 58
+  Question: Мас хаптаһыннары туох холбуур?
+  True Answer: Тоһоҕо
+  Generated Answer: Килиэй
+  Result: INCORRECT
+--------------------
+ID: 59
+  Question: Сомуогу арыйарга туох туттулларый?
+  True Answer: Күлүүс
+  Generated Answer: Күлүүс
+  Result: CORRECT
+--------------------
+ID: 60
+  Question: Тиис суунарга туох туттулларый?
+  True Answer: Тиис щетката
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 61
+  Question: Ханнык харамай полоскалаах буоларый?
+  True Answer: Зебра
+  Generated Answer: Хахай
+  Result: INCORRECT
+--------------------
+ID: 62
+  Question: Ханнык фрукта силбэһиилээхтик үүнэрий?
+  True Answer: Виноград
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 63
+  Question: Туох ыарахан таһаҕаһы тиэйэрий?
+  True Answer: Грузовик
+  Generated Answer: Культур
+  Result: INCORRECT
+--------------------
+ID: 64
+  Question: Үөһэ тахсарга тугу туһаналларый?
+  True Answer: дьоҕус кирилиэс
+  Generated Answer: Пантер
+  Result: INCORRECT
+--------------------
+ID: 65
+  Question: Ханнык инструмены охсоҕун?
+  True Answer: Барабан
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 66
+  Question: Ханнык кыыл раковиналаах буолуой?
+  True Answer: Черепаха
+  Generated Answer: Хапп
+  Result: INCORRECT
+--------------------
+ID: 67
+  Question: Халлааҥҥа туох түргэнник көтөрүй?
+  True Answer: Самолет
+  Generated Answer: Нью
+  Result: INCORRECT
+--------------------
+ID: 68
+  Question: Туох стрелкалардаах уонна бириэмэни көрдөрөрүй?
+  True Answer: Чаһыы
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 69
+  Question: Эркиннэргэ туох өҥү эбэр?
+  True Answer: Ойуулаа
+  Generated Answer: Кыраа
+  Result: INCORRECT
+--------------------
+ID: 70
+  Question: Үүттэн тугу оҥоһуллар уонна быһаҕынан кырбаныан сөп?
+  True Answer: Сыыр
+  Generated Answer: Уэль
+  Result: INCORRECT
+--------------------
+ID: 71
+  Question: Лава туох дэлби тэбиитэ буоларый?
+  True Answer: Вулкан
+  Generated Answer: Кими
+  Result: INCORRECT
+--------------------
+ID: 72
+  Question: Ханнык тэрил кумааҕыны быһарый?
+  True Answer: Кыптыый
+  Generated Answer: Бутэрил
+  Result: INCORRECT
+--------------------
+ID: 73
+  Question: Суолга туох үрүҥ полоскалардаах буолуой?
+  True Answer: Суол туорааһына
+  Generated Answer: Универ
+  Result: INCORRECT
+--------------------
+ID: 74
+  Question: Сурукка туох туттулларый уонна мастартан оҥоһулларый?
+  True Answer: Кумааҕы
+  Generated Answer: Хамыыһы
+  Result: INCORRECT
+--------------------
+ID: 75
+  Question: Ханнык көтөрдөр араас өҥнөөх түүлээхтэрий?
+  True Answer: Павлин
+  Generated Answer: Кус
+  Result: INCORRECT
+--------------------
+ID: 76
+  Question: Сиртэн туох үрдүккэ тахсарый?
+  True Answer: Хайа
+  Generated Answer: Эконо
+  Result: INCORRECT
+--------------------
+ID: 77
+  Question: Уу аттыгар олорор уонна ыстанар тугуй?
+  True Answer: Баҕа
+  Generated Answer: Французтар
+  Result: INCORRECT
+--------------------
+ID: 78
+  Question: Ханнык тэрил температураны мээрэйдиирий?
+  True Answer: Термометр
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 79
+  Question: Ханнык фрукта саһархай уонна токур буоларый?
+  True Answer: Банан
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 80
+  Question: Ардах түстэҕинэ тугу кэтэҕин?
+  True Answer: Плащ
+  Generated Answer: Паар
+  Result: INCORRECT
+--------------------
+ID: 81
+  Question: Ханнык тэрил тоһоҕону охсоруй?
+  True Answer: Молот
+  Generated Answer: Балта
+  Result: INCORRECT
+--------------------
+ID: 82
+  Question: Мүөтү туох оҥороруй?
+  True Answer: Тигээйи
+  Generated Answer: Паар
+  Result: INCORRECT
+--------------------
+ID: 83
+  Question: Харчыны уонна каартаны туох тутар?
+  True Answer: Кумааһынньык
+  Generated Answer: ЕС
+  Result: INCORRECT
+--------------------
+ID: 84
+  Question: Ханнык чыычаах тымныы сиргэ олороруй?
+  True Answer: Пингвин
+  Generated Answer: Пингвин
+  Result: CORRECT
+--------------------
+ID: 85
+  Question: Түүннэри халлааҥҥа туох көстөрүй?
+  True Answer: Ый
+  Generated Answer: Ый
+  Result: CORRECT
+--------------------
+ID: 86
+  Question: Айанныырга таҥаһы туох илдьэ сылдьарый?
+  True Answer: Чемодан
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 87
+  Question: Туохха олороҕун?
+  True Answer: Олоппос
+  Generated Answer: Хлоро
+  Result: INCORRECT
+--------------------
+ID: 88
+  Question: Ынах тугу оҥорор?
+  True Answer: Үүт
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 89
+  Question: буукубалары суруйаары тугунан туттаҕын?
+  True Answer: Клавиатура
+  Generated Answer: Клавиатура
+  Result: CORRECT
+--------------------
+ID: 90
+  Question: Чэйи хантан иһэҕин?
+  True Answer: Чааскы
+  Generated Answer: Ууну
+  Result: INCORRECT
+--------------------
+ID: 91
+  Question: Сир Шаарыгар сылааһы туох биэрэрий?
+  True Answer: Күн
+  Generated Answer: Соруйа
+  Result: INCORRECT
+--------------------
+ID: 92
+  Question: Ардахха туох эйигин кураанах тутар?
+  True Answer: Зонтик
+  Generated Answer: Кте
+  Result: INCORRECT
+--------------------
+ID: 93
+  Question: Тиискин ким бэрэбиэркэлиирий?
+  True Answer: Тиис бырааһа
+  Generated Answer: Тиис бырааһа
+  Result: CORRECT
+--------------------
+ID: 94
+  Question: Хантан кинигэ уларсыахха сөбүй?
+  True Answer: Библиотека
+  Generated Answer: Пантер
+  Result: INCORRECT
+--------------------
+ID: 95
+  Question: Куорат болуоссаттарыгар бириэмэни туох көрдөрөрүй?
+  True Answer: Чаһыы башнята
+  Generated Answer: Аандойду
+  Result: INCORRECT
+--------------------
+ID: 96
+  Question: Үрдэххэ туох тыас таһаарарый?
+  True Answer: Иһиир
+  Generated Answer: Иһиир
+  Result: CORRECT
+--------------------
+ID: 97
+  Question: Кыраасканы туох тарҕатар?
+  True Answer: Киистэ
+  Generated Answer: E)
+  Result: INCORRECT
+--------------------
+ID: 98
+  Question: Ханнык тэрил хайысханы буларга көмөлөһөрүй?
+  True Answer: Компас
+  Generated Answer: B)
+  Result: INCORRECT
+--------------------
+ID: 99
+  Question: Оскуола тэриллэрин тиэйэргэ туох туттулларый?
+  True Answer: Рюкзак
+  Generated Answer: Рюкзак
+  Result: CORRECT
+--------------------
+ID: 100
+  Question: Хараҥаҕа көрөргө туох көмөлөһөрүй?
+  True Answer: Фонарик
+  Generated Answer: Паар
+  Result: INCORRECT
+--------------------
