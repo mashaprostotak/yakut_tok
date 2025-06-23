@@ -77,4 +77,73 @@ project/
 - [Sakha-NLP Raw-Datasets](https://github.com/nlp-sakha/sakha-embeddings?tab=readme-ov-file)
 - [MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it)
 
-Further instructions for tokenizer development, model training, and evaluation will be added as development progresses. 
+## Reproducing Results
+
+This section provides high-level instructions to reproduce the results presented in this project. The complete pipeline involves data preprocessing, tokenizer training, model fine-tuning, and evaluation across multiple phases.
+
+### Prerequisites
+
+1. **Environment Setup**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Data Preparation**
+   - Download raw datasets (OPUS, OSCAR, XQuAD) into `data/raw/`
+   
+
+### Pipeline Overview
+
+The reproduction process follows these main phases:
+
+#### Phase 1: Data Preprocessing and Analysis
+```bash
+python src/preprocessing/run_preprocessing.py --all
+```
+
+#### Phase 2: Custom Tokenizer Development
+```bash
+jupyter notebook src/tokenizer/tokenizer_training.ipynb
+```
+
+#### Phase 3: Model Training
+**Phase 1 Training (Initial Fine-tuning)**
+```bash
+jupyter notebook src/training/phase_1_training.ipynb
+```
+
+**Phase 2 Training (Instruction Following)**
+```bash
+jupyter notebook src/training/phase2_training&Xquad_evaluation.ipynb
+```
+
+#### Phase 4: Dataset Translation and Evaluation
+```bash
+python src/evaluation/synthetic_dataset_translation.py
+python src/evaluation/xquads_translation.py
+
+jupyter notebook src/evaluation/model_synthetic_eval.ipynb
+```
+
+### Expected Outputs
+
+The pipeline generates the following key results:
+
+1. **Data Analysis Reports** (`data/processed/analysis/`)
+   - Statistical analysis of parallel and monolingual corpora
+
+2. **Trained Models** (`tokenizers/`)
+   - Custom Yakut tokenizer
+   - Fine-tuned language model with integrated tokenizer
+
+3. **Evaluation Results** (`results/`)
+   - Performance metrics on synthetic dataset
+   - XQuAD question-answering evaluation results
+   - Comparative analysis with baseline models (LLaMA 3.2)
+
+### Key Evaluation Metrics
+
+- **Translation Quality**: BLEU scores, semantic similarity
+- **Question Answering**: Exact Match (EM), F1 scores on XQuAD
+- **Language Generation**: Fluency and coherence metrics
+- **Tokenization Efficiency**: Vocabulary size, compression ratio
