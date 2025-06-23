@@ -75,5 +75,6 @@ project/
 - [OPUS Sakha-Russian corpus](https://opus.nlpl.eu/results/sah&ru/corpus-result-table)
 - [OSCAR corpus](https://oscar-project.github.io/documentation/versions/oscar-2019/#downloading-oscar)
 - [Sakha-NLP Raw-Datasets](https://github.com/nlp-sakha/sakha-embeddings?tab=readme-ov-file)
+- [MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it)
 
 Further instructions for tokenizer development, model training, and evaluation will be added as development progresses. 
