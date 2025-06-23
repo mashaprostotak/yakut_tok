@@ -57,7 +57,7 @@ project/
 
 - [OPUS Sakha-Russian corpus](https://opus.nlpl.eu/results/sah&ru/corpus-result-table)
 - [OSCAR corpus](https://oscar-project.github.io/documentation/versions/oscar-2019/#downloading-oscar)
-- MOREEE HEREEEE
+- [Sakha-NLP Raw-Datasets](https://github.com/nlp-sakha/sakha-embeddings?tab=readme-ov-file)
 
 
 ## Key Components
