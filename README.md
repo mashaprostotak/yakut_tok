@@ -145,4 +145,3 @@ The pipeline generates the following key results:
 
 - **Question Answering**: Exact Match (EM), F1 scores on XQuAD
 - **Language Generation**: Fluency and coherence metrics
-- **Tokenization Efficiency**: Vocabulary size, compression ratio
