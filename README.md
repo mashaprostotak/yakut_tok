@@ -1,6 +1,7 @@
 # Project Title
 
 Tokenization Matters: Improving Low-Resource Language Modeling for Yakut with Custom Tokenizer
+by Mariia Eremeeva, Rada Kamysheva, Abu Bakr Rahman Shaik, Nishant Singh
 
 # Project Description
 
